@@ -40,9 +40,9 @@ File_info read_heic(const char* filename) {
 
 int main(int argc, char** argv) {
 
-	const char* input_filename = "C:\\Users\\Nexei\\Downloads\\IMG_2056.HEIC";
+	const char* input_filename = ".\\IMG_2056.HEIC";
 
-	const char* output_filename = "C:\\Users\\Nexei\\Downloads\\out_test.jpg";
+	const char* output_filename = ".\\out_test.jpg";
 
 	File_info info = read_heic(input_filename);
 
