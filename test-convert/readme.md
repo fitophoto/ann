@@ -24,7 +24,7 @@ git clone https://github.com/microsoft/vcpkg
 #include <libheif/heif.h>
 ```
 ## 3. Добавить [stb_image_write.h](https://github.com/fitophoto/ann/blob/main/test-convert/stb_image_write.h) в проект
-![](https://raw.githubusercontent.com/grimkel/justInCase/main/dir/add.PNG?token=GHSAT0AAAAAABNQUHMYLYGLFWPFMMPUX7BKYRR7XVA)
+![](https://raw.githubusercontent.com/grimkel/justInCase/main/dir/add.PNG?token=GHSAT0AAAAAABNQUHMYJDRLGICPLSLG4AFIYRSABBQ)
 
 Файл взят из [stb](https://github.com/nothings/stb)
 
