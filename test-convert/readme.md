@@ -1,6 +1,6 @@
 # Как скомпилировать
 
-## 0. Добавить англоязычний языковой паке т в visual studio (без него vcpkg не работает)
+## 0. Добавить англоязычний языковой пакет в visual studio (без него vcpkg не работает)
 ![](https://user-images.githubusercontent.com/24369177/151754180-12c823ef-8dd5-42a7-ae6e-d71fda0f158e.png)
 ## 1. Установить [vcpkg](https://github.com/microsoft/vcpkg) (пакетный менеджер для visual studio)
 Установить можно в любой директории
