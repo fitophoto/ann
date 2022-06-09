@@ -2,15 +2,15 @@
 
 
 * [TrainNoData/BackDetector.ipynb](TrainNoData/BackDetector.ipynb) - ?
-* [TrainNoDate/eraseBack.ipynb](TrainNoDate/eraseBack.ipynb) - ?
-* [TrainNoDate/eraseBackHsv.ipynb](TrainNoDate/eraseBackHsv.ipynb) - ?
-* [TrainNoDate/PretrainedCnn+SVM.ipynb](TrainNoDate/PretrainedCnn+SVM.ipynb) - ?
-* [TrainNoDate/load.ipynb](TrainNoDate/load.ipynb) - ?
-* [TrainNoDate/prep224.ipynb](TrainNoDate/prep224.ipynb) - ?
-* [TrainNoDate/processNatural.ipynb](TrainNoDate/processNatural.ipynb) - ?
-* [TrainNoDate/testLoad.ipynb](TrainNoDate/testLoad.ipynb) - ?
-* [TrainNoDate/test_arch_legacy.ipynb](TrainNoDate/test_arch_legacy.ipynb) - ?
-* [TrainNoDate/test_arch_softmax.ipynb](TrainNoDate/test_arch_softmax.ipynb) - ?
-* [TrainNoDate/trainOneBckg.ipynb](TrainNoDate/trainOneBckg.ipynb) - ?
-* [TrainNoDate/trainOneBckgBin.ipynb](TrainNoDate/trainOneBckgBin.ipynb) - ?
-* [TrainNoDate/whiteFull.ipynb](TrainNoDate/whiteFull.ipynb) - ?
+* [TrainNoData/eraseBack.ipynb](TrainNoData/eraseBack.ipynb) - ?
+* [TrainNoData/eraseBackHsv.ipynb](TrainNoData/eraseBackHsv.ipynb) - ?
+* [TrainNoData/PretrainedCnn+SVM.ipynb](TrainNoData/PretrainedCnn+SVM.ipynb) - ?
+* [TrainNoData/load.ipynb](TrainNoData/load.ipynb) - ?
+* [TrainNoData/prep224.ipynb](TrainNoData/prep224.ipynb) - ?
+* [TrainNoData/processNatural.ipynb](TrainNoData/processNatural.ipynb) - ?
+* [TrainNoData/testLoad.ipynb](TrainNoData/testLoad.ipynb) - ?
+* [TrainNoData/test_arch_legacy.ipynb](TrainNoData/test_arch_legacy.ipynb) - ?
+* [TrainNoData/test_arch_softmax.ipynb](TrainNoData/test_arch_softmax.ipynb) - ?
+* [TrainNoData/trainOneBckg.ipynb](TrainNoData/trainOneBckg.ipynb) - ?
+* [TrainNoData/trainOneBckgBin.ipynb](TrainNoData/trainOneBckgBin.ipynb) - ?
+* [TrainNoData/whiteFull.ipynb](TrainNoData/whiteFull.ipynb) - ?
