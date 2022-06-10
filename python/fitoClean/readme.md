@@ -1,2 +1,2 @@
 
-* [savedModels/backDetector.pt](backDetector.pt) - классификатор фона
+* [savedModels/backDetector.pt](savedModels/backDetector.pt) - классификатор фона
