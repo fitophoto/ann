@@ -1,16 +1,6 @@
 ### Описание состава файлов
 
-
-* [TrainNoData/BackDetector.ipynb](TrainNoData/BackDetector.ipynb) - ?
-* [TrainNoData/eraseBack.ipynb](TrainNoData/eraseBack.ipynb) - ?
-* [TrainNoData/eraseBackHsv.ipynb](TrainNoData/eraseBackHsv.ipynb) - ?
-* [TrainNoData/PretrainedCnn+SVM.ipynb](TrainNoData/PretrainedCnn+SVM.ipynb) - ?
-* [TrainNoData/load.ipynb](TrainNoData/load.ipynb) - ?
-* [TrainNoData/prep224.ipynb](TrainNoData/prep224.ipynb) - ?
-* [TrainNoData/processNatural.ipynb](TrainNoData/processNatural.ipynb) - ?
-* [TrainNoData/testLoad.ipynb](TrainNoData/testLoad.ipynb) - ?
-* [TrainNoData/test_arch_legacy.ipynb](TrainNoData/test_arch_legacy.ipynb) - ?
-* [TrainNoData/test_arch_softmax.ipynb](TrainNoData/test_arch_softmax.ipynb) - ?
-* [TrainNoData/trainOneBckg.ipynb](TrainNoData/trainOneBckg.ipynb) - ?
-* [TrainNoData/trainOneBckgBin.ipynb](TrainNoData/trainOneBckgBin.ipynb) - ?
-* [TrainNoData/whiteFull.ipynb](TrainNoData/whiteFull.ipynb) - ?
+* [fitoClean/preprocess.ipynb](fitoClean/preprocess.ipynb) - Подготовка данных для дальнейшего обучения
+* [fitoClean/train-CNN.ipynb](fitoClean/train-CNN.ipynb) - Обучение сверточной сети (измененный alexnet)
+* [fitoClean/PretrainedCnn+SVM.ipynb](fitoClean/PretrainedCnn+SVM.ipynb) - Обучение SVM модели, использующей предобеченные сверточные слои alexnet как экстрактор признаков
+* * [fitoClean/BackDetector.ipynb](fitoClean/BackDetector.ipynb) - Обучение детектора фона
