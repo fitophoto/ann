@@ -1,0 +1,54 @@
+Загрузка фото: <input id="neuron_photo_input" type="file" accept="image/jpeg"><br>
+
+<button id="neuron_button" onclick="picture_handle()">Обработать</button>
+
+<p><a href="page.html"><img id="neuron_output" src="https://mobimg.b-cdn.net/v3/fetch/d2/d2b68f59b8df8a50794c7f0aa70ddc08.jpeg"
+     width="375" height="255" > 
+
+
+<script>
+    const inputElement = document.getElementById("neuron_photo_input")
+    const neuron_output = document.getElementById("neuron_output")
+    function picture_handle() {
+        let f = inputElement.files[0]
+        if(f) {
+            neuron_output.src= URL.createObjectURL(f, 'parrot')
+            localStorage.setItem('neuronImage',neuron_output.src)
+            neuron_output.src=localStorage.getItem('neuronImage')
+            var img = localStorage.getItem('neuronImage')
+            var file = new File([img],"image.jpeg",{type:"image.jpeg"})
+            var b64 = btoa(img)
+            alert(file)
+            var dt = getBase64Image()      
+            
+            host = "192.168.88.254"
+            port = "8888"
+            var xmlHttp = new XMLHttpRequest()
+
+            xmlHttp.onreadystatechange = function() {
+                if (xmlHttp.readyState == XMLHttpRequest.DONE) {
+                    alert(xmlHttp.responseText);
+                }
+            }
+
+            xmlHttp.open( "POST", "http://"+host+":"+port, true );
+
+            xmlHttp.send(dt)
+        }
+    }
+    function getBase64Image() {
+        var canvas = document.createElement('canvas')
+        var img1 = document.createElement("img")
+        var blob = localStorage.getItem('neuronImage')
+        img1.setAttribute('src', blob)
+        canvas.width=img1.width
+        canvas.height=img1.height
+        var ctx = canvas.getContext("2d")
+        ctx.drawImage(img1,0,0)
+        var dataURL = canvas.toDataURL("image/jpeg")
+        return dataURL
+    }
+</script>
+
+<script>
+</script>
